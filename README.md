@@ -1,4 +1,6 @@
-Hey guys - This is the whitelist for RepairTech's new process killer tool. The tool is meant to kill unnecessary processes before scanning for malware. It can whitelist processes based on a bunch of different properties. Here's where we need your help! We have open-sourced the whitelist on github, and would like your suggestions for more whitelisted items before we release the tool.
+Hey techs!
+
+This is the whitelist for RepairTech's new process killer tool. The tool is meant to kill unnecessary processes before scanning for malware. It can whitelist processes based on a bunch of different properties. Here's where we need your help! We have open-sourced the whitelist on github, and would like your suggestions for more whitelisted items before we release the tool.
 
 This whitelist includes 4 different properties it can sort by. I'll explain how to find each one in a normal application:
 
