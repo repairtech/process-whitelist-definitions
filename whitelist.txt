@@ -1,3 +1,4 @@
 USERS WHITELIST         --->       , NO OWNER
 PRODUCT NAMES WHITELIST --->       , Microsoft Windows, Intel, ProcessKiller, windows search
-SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, LogMeIn, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss, iexplore
+SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, 
+PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, LogMeIn, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss, iexplore
