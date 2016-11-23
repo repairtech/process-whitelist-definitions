@@ -1,0 +1,4 @@
+NO OWNER
+Microsoft Windows, Intel, ProcessKiller, windows search
+Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, Amazon Web Services, TeamViewer
+services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss
