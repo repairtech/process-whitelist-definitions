@@ -1,4 +1,4 @@
 USERS WHITELIST         --->       , NO OWNER
-PRODUCT NAMES WHITELIST --->       , Microsoft Windows, Intel, ProcessKiller, windows search, TechSuite, Kabuto
-SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici
-PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, LogMeIn, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss, iexplore, techsuite, kabuto, Instant Housecall
+PRODUCT NAMES WHITELIST --->       , Microsoft Windows, Intel, ProcessKiller, windows search, TechSuite, Kabuto, TeamViewer, ScreenConnect, Elsinore, Instant Housecall
+SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, TeamViewer, Instant Housecall
+PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, LogMeIn, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss, iexplore, techsuite, kabuto, Instant Housecall, svchost, cmd, tasklist, Elsinore, ScreenConnect
