@@ -15,4 +15,4 @@ A couple things to note:
  - Each line is a separate list
  - We will match parts of words. So far example if the process name is "TeamViewerQS.exe" and we whitelist "TeamViewer" it will be a match because "TeamViewer" is a part of "TeamViewerQS.exe"
 
-If you have suggestions for additions to the whitelist, you can either send us an email at support@repairtechsolutions.com, or you can make a request on Github.
+If you have suggestions for additions to the whitelist, you can either send us an email at support@repairtechsolutions.com, or you can open an "Issue" on Github. 
