@@ -1,4 +1,17 @@
-USERS WHITELIST         --->       , NO OWNER
-PRODUCT NAMES WHITELIST --->       , Microsoft Windows, Intel, ProcessKiller, windows search, TechSuite, Kabuto, TeamViewer, ScreenConnect, Elsinore, Instant Housecall, Atera, Splashtop, SolarWinds, GFI, Dell
-SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, TeamViewer, Instant Housecall, Atera, Splashtop, TicketingTray, SolarWinds, GFI, Dell
-PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, LogMeIn, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, less, wininit, csrss, iexplore, techsuite, kabuto, Instant Housecall, svchost, cmd, tasklist, Elsinore, ScreenConnect, remote support, remote access, simpleservice, shaerodisabler, simplehelpcustomer, javaw, instanthousecall, tv_w32, tv_x64, callingcard, ra64app, unattended, g2a, lmiguardian, lmi_rescue, kvncviewer, agentmon, liveconnect, vnc, ammyy, Memory Consumption, Atera, Splashtop, TicketingTray, SRManager, SRFeature, SRServer, SRService, winagent, Dell
+# ProcessHawk Whitelist Definitions
+# Copyright RepairTech, Inc. 2026 - GPLv3
+# Format: Each data line has a header, then "--->" separator, then comma-separated values.
+# Matching is case-insensitive substring. Entries are trimmed and lowercased by ProcessHawk.
+# Lines starting with # are comments and are ignored by the parser.
+
+# --- Users: process owners to whitelist ---
+USERS WHITELIST         --->       , NO OWNER, NT AUTHORITY, NT SERVICE, NETWORK SERVICE, LOCAL SERVICE, SYSTEM
+
+# --- Product names: FileVersionInfo.ProductName values to whitelist ---
+PRODUCT NAMES WHITELIST --->       , Microsoft Windows, Intel, ProcessHawk, windows search, TechSuite, Kabuto, TeamViewer, ScreenConnect, ConnectWise, Instant Housecall, Atera, Splashtop, SolarWinds, GFI, Dell, HP, Lenovo, ASUS, AnyDesk, NinjaRMM, Ninja, Datto, Syncro, HaloPSA, Windows Defender, NVIDIA, AMD, Realtek, VMware Tools, VirtualBox Guest
+
+# --- Signers: X509 certificate subject values to whitelist ---
+SIGNATURE WHITELIST     --->       , Microsoft Software Validation, Intel Corporation, Microsoft Corporation, RepairTech, Intel, Teradici, TeamViewer GmbH, TeamViewer, Instant Housecall, Atera Networks, Atera, Splashtop Inc, Splashtop, TicketingTray, SolarWinds, GFI Software, GFI, Dell Inc, Dell, HP Inc, Lenovo, ASUSTeK, AnyDesk Software GmbH, AnyDesk, NinjaRMM LLC, Ninja, Datto Inc, Datto, Syncro, ConnectWise LLC, ConnectWise, NVIDIA Corporation, Advanced Micro Devices, Realtek Semiconductor, VMware Inc
+
+# --- Process names: executable names (without .exe) to whitelist ---
+PROCESS NAME WHITELIST  --->       , Amazon Web Services, TeamViewer, TeamViewer_Service, TeamViewer_Desktop, tv_w32, tv_x64, LogMeIn, lmiguardian, lmi_rescue, services, smss, SkyLightWorkspaceConfigService, ssh-agent, Ec2Config, wininit, csrss, techsuite, kabuto, ProcessHawk, Instant Housecall, instanthousecall, svchost, cmd, tasklist, conhost, dashost, ScreenConnect, ConnectWise, remote support, remote access, simpleservice, simplehelpcustomer, javaw, callingcard, ra64app, unattended, g2a, kvncviewer, agentmon, liveconnect, vnc, ammyy, Atera, AteraAgent, Splashtop, SplashtopStreamer, TicketingTray, SRManager, SRFeature, SRServer, SRService, winagent, Dell, SolarWinds, GFI, AnyDesk, NinjaRMMAgent, NinjaRMMonitor, DattoRmm, SyncroLive, SyncroRMM, explorer, dwm, sihost, SearchUI, SearchHost, StartMenuExperienceHost, ShellExperienceHost, RuntimeBroker, fontdrvhost, lsass, winlogon, MsMpEng, NisSrv, SecurityHealthService, SecurityHealthSystray, MpCmdRun, WmiPrvSE, TiWorker, TrustedInstaller, WaaSMedicSvc, spoolsv, taskhostw, ctfmon, dllhost, msiexec, WindowsTerminal, OpenConsole, wt, nvda, nvdahelperremoteloader, Narrator, vmtoolsd, VBoxService, VBoxTray
